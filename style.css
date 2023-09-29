@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: greenyellow;
+    font-family: sans-serif;
+}
+.logo{
+    position: absolute;
+    margin: 4px;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+}
+.logo div{
+    text-align: center;
+    font-size: 14px;
+}
+.navbar{
+    display: block;    
+    /* width: 60%; */
+    margin:5px 150px 5px 150px ;
+    padding: 30px;
+    /* border: 2px solid red; */
+}
+.navbar ul{
+    display: flex;
+    
+}
+.navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding: 3.2rem;
+    color: greenyellow;
+}
+.navbar ul li a:hover{
+    color: gray;
+}
+
+.main-content{
+    margin: 100px;
+    text-align: center;
+}
+.content{
+    display: inline-block;
+    /* border: 2px solid red; */
+    text-align: center;
+    padding: 50px;
+}
+.btn{
+    text-align: center;
+}
+.button{
+    font-size: 20px;
+    margin: auto;
+    padding: 15px;
+    font-weight: bolder;
+    border-radius: 23px;
+    color: green;
+    background-color: rgb(214, 206, 206);
+}
+.button:hover{
+    color: gray;
+}
